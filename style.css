@@ -129,10 +129,14 @@ footer p {
 
 @media (max-width: 576px) {
   .container {
-    padding: 0 2em;
+    padding: 2em;
     max-width: auto;
     margin: 0 auto;
     text-align: center;
+  }
+
+  .container > img {
+    margin: 2em 0;
   }
 
   .container h1 {
